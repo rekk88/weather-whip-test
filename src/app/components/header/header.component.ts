@@ -12,5 +12,12 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  testFunction(){
+    console.log("test function");
+    
+  }
+  testFunction2(){
+    console.log("test function 2");
+    
+  }
 }

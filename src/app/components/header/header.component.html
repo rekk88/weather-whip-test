@@ -1,7 +1,7 @@
 <header>
   <h1>{{ title }}</h1>
-  <app-button color="green" text="Add"></app-button>
-  <app-button color="yellow" text= "add2"></app-button>
+  <app-button color="green" text="Add" (btnClick)="testFunction2()"></app-button>
+  <app-button color="yellow" text= "add2" (btnClick)="testFunction()"></app-button>
 </header>
 
 <!-- [ngStyle]="{'background-color': color}" -->
